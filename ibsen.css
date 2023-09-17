@@ -1,9 +1,10 @@
 /* Speech class */
+
 .speech {
-    font-family: sans-serif;
-    font-size: 16px;
-    color: red;
-  }
+  font-family: sans-serif;
+  font-size: 16px;
+  color: red;
+}
   .speech1 {
     font-family: sans-serif;
     font-size: 16px;
@@ -56,7 +57,7 @@
   table, td {
     border: 1px solid black;
                 border-collapse: collapse;
-                padding: 5px;
+                padding: 15px;
             }
      
             tr:nth-child(odd) {
@@ -68,4 +69,19 @@
       background-color: #9cc1e6;
     }
 
-    
+
+    /* Direction class */
+  .direction1 {
+    font-family: monospace;
+    font-size: 14px;
+    color: black;
+    background-color: lightgray;
+  }
+  
+  /* Direction hover class */
+  .direction1:hover {
+    background-color: purple;
+    color:orange;
+  text-shadow: 2px 2px 4px #000000;
+  filter: blur(1px);
+  }
