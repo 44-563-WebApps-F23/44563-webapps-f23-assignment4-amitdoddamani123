@@ -2,7 +2,12 @@
 .speech {
     font-family: sans-serif;
     font-size: 16px;
-    color: black;
+    color: red;
+  }
+  .speech1 {
+    font-family: sans-serif;
+    font-size: 16px;
+    color:purple;
   }
   
   /* Direction class */
@@ -15,20 +20,16 @@
   
   /* Direction hover class */
   .direction:hover {
-    background-color: #ccc;
-    color: #fff;
+    background-color: purple;
+    color:orange;
   }
   
   /* Character class styles */
-  .mary {
+  .NORA {
     color: red;
   }
   
-  .ollivant {
+  .NURSE {
     color: blue;
   }
-  
-  .emily {
-    color: green;
-  }
-  
+    
