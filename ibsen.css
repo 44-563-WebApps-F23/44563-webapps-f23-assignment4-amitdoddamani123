@@ -15,12 +15,14 @@
     font-family: sans-serif;
     font-size: 16px;
     color:rgb(153, 199, 27);
+    box-shadow: 20px 20px 50px rgba(4, 5, 3, 0.5);
   }
 
   .speech3 {
     font-family: sans-serif;
     font-size: 16px;
     color:bisque;
+    box-shadow: 20px 20px 50px rgba(4, 5, 3, 0.5);
   }
 
   /* Direction class */
@@ -35,15 +37,18 @@
   .direction:hover {
     background-color: purple;
     color:orange;
+    border: 2px solid blue;
   }
   
   /* Character class styles */
   .NORA {
     color: red;
+    border:1px solid;
   }
   
   .NURSE {
     color: blue;
+    padding: 2px;
   }
 
   .HELMER {
@@ -52,6 +57,7 @@
 
   .MRS LINDE {
     color:burlywood;
+    box-shadow: 20px 20px 50px rgba(4, 5, 3, 0.5);
   }
 
   table, td {

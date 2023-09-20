@@ -3,5 +3,5 @@
 A practice assignment for HTML with CSS
 
 **Link for playpart.html:**
-[HTML](https://44-563-webapps-f23.github.io/44563-webapps-f23-assignment4-amitdoddamani123/)
+[HTML](https://44-563-webapps-f23.github.io/44563-webapps-f23-assignment4-amitdoddamani123/playpart.html)
 
