@@ -7,16 +7,44 @@
   border: 2px blue;
   cursor: pointer;
 }
+
+.name{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:rgb(198, 132, 51); }
+
+  /* Direction class */
+  .direction {
+    font-family: monospace;
+    font-size: 14px;
+    color: black;
+    background-color: lightgray;
+  }
+
+.speech:hover{
+  text-shadow: 5px 5px 5px #7de271;
+  border: 2px solid #302d2d;
+  display: inline-block;
+}
   .speech1 {
     text-shadow: 2px 2px 4px blueviolet;
     border: 2px blue;
     cursor: pointer;
+  }
+  .speech1:hover{
+    text-shadow: 5px 5px 5px #96bee0;
+    border: 2px solid #da34c4;
+    display: inline-block;
   }
   
   .speech2 {
     text-shadow: 2px 2px 4px blueviolet;
     border: 2px blue;
     cursor: pointer;
+  }
+  .speech2:hover{
+    text-shadow: 5px 5px 5px #d7ac1e;
+    border: 2px solid #2e9136;
+    display: inline-block;
   }
 
   .speech3 {
@@ -26,28 +54,23 @@
     box-shadow: 20px 20px 50px rgba(4, 5, 3, 0.5);
   }
 
-  /* Direction class */
-  .direction {
-    font-family: monospace;
-    font-size: 14px;
-    color: black;
-    background-color: lightgray;
+  .speech3:hover{
+    text-shadow: 5px 5px 5px #85a43c;
+    border: 2px solid #2e49b5;
+    display: inline-block;
   }
   
   /* Direction hover class */
   .direction:hover {
-    background-color: purple;
-    color:orange;
-    border: 2px solid blue;
+    background-color: #e36363;
+    color: rgb(155, 235, 145);
+    border: 2px solid #180707;
+    display: inline-block;
   }
   
   /* Character class styles */
-  
-  .NORA:hover{
+  .NORA {
     color:red;
-    text-shadow: 2px 2px 4px blue;
-    border: 2px solid red;
-    cursor : pointer;
   }
   
   .NURSE {
@@ -61,7 +84,7 @@
 
   .MRS LINDE {
     color:burlywood;
-    box-shadow: 20px 20px 50px rgba(4, 5, 3, 0.5);
+    box-shadow: 20px 20px 50px rgba(127, 177, 78, 0.5);
   }
 
   table, td {
@@ -123,6 +146,8 @@
 }
 
 .navigationBar li {
-    padding: 2px;
+    padding: 8px;
+    display: block;
+    background-color: rgb(95, 110, 220);
 }
 
