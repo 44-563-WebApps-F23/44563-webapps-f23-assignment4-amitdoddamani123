@@ -4,18 +4,19 @@
   font-family: sans-serif;
   font-size: 16px;
   color: red;
+  border: 2px blue;
+  cursor: pointer;
 }
   .speech1 {
-    font-family: sans-serif;
-    font-size: 16px;
-    color:purple;
+    text-shadow: 2px 2px 4px blueviolet;
+    border: 2px blue;
+    cursor: pointer;
   }
   
   .speech2 {
-    font-family: sans-serif;
-    font-size: 16px;
-    color:rgb(153, 199, 27);
-    box-shadow: 20px 20px 50px rgba(4, 5, 3, 0.5);
+    text-shadow: 2px 2px 4px blueviolet;
+    border: 2px blue;
+    cursor: pointer;
   }
 
   .speech3 {
@@ -41,9 +42,12 @@
   }
   
   /* Character class styles */
-  .NORA {
-    color: red;
-    border:1px solid;
+  
+  .NORA:hover{
+    color:red;
+    text-shadow: 2px 2px 4px blue;
+    border: 2px solid red;
+    cursor : pointer;
   }
   
   .NURSE {
@@ -62,7 +66,6 @@
 
   table, td {
     border: 1px solid black;
-                border-collapse: collapse;
                 padding: 15px;
             }
      
